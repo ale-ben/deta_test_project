@@ -1,10 +1,3 @@
-export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="">
-       Hello World.
-	   <p>I am a test page</p>
-      </div>
-    </main>
-  )
+export default async function Dashboard() {
+	return <div className="mt-2 text-center text-2xl">Fuel Logs</div>;
 }
