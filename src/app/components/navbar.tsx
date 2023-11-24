@@ -26,9 +26,9 @@ import { BsFuelPumpFill } from 'react-icons/bs';
 
 const FLNavbar = () => {
 	return (
-		<div>
-			Hello world
-		</div>
+		<Navbar> 
+			
+		</Navbar>
 		/*
 		<Navbar isBordered maxWidth="full">
 			<NavbarBrand>
