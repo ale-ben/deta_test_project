@@ -1,0 +1,119 @@
+Validating your Spacefile...
+                                                     
+Your Spacefile looks good, proceeding with your push!
+
+✓ Successfully started your build!
+✓ Successfully pushed your Spacefile!
+
+📦  Pushing your code (25 files) & running build process...
+
+2023/11/24 16:49:48 
+2023/11/24 16:49:48 Parsing Spacefile...
+2023/11/24 16:49:48 Scanned micros:
+2023/11/24 16:49:48 └ deta-test-project
+2023/11/24 16:49:48 
+2023/11/24 16:49:48 Building micro deta-test-project...
+2023/11/24 16:49:48 [deta-test-project] Installing dependencies with pnpm
+2023/11/24 16:49:48 [deta-test-project] 
+2023/11/24 16:49:48 
+2023/11/24 16:49:52 [deta-test-project] Fetching Node.js 16.16.0 ...
+2023/11/24 16:49:52 [deta-test-project] 
+2023/11/24 16:49:52 [deta-test-project]    ╭──────────────────────────────────────────────────────────────────╮
+2023/11/24 16:49:52 [deta-test-project]    │                                                                  │
+2023/11/24 16:49:52 [deta-test-project]    │                Update available! 8.7.0 → 8.10.5.                 │
+2023/11/24 16:49:52 [deta-test-project]    │   Changelog: https://github.com/pnpm/pnpm/releases/tag/v8.10.5   │
+2023/11/24 16:49:52 [deta-test-project]    │                Run "pnpm add -g pnpm" to update.                 │
+2023/11/24 16:49:52 [deta-test-project]    │                                                                  │
+2023/11/24 16:49:52 [deta-test-project]    │      Follow @pnpmjs for updates: https://twitter.com/pnpmjs      │
+2023/11/24 16:49:52 [deta-test-project]    │                                                                  │
+2023/11/24 16:49:52 [deta-test-project]    ╰──────────────────────────────────────────────────────────────────╯
+2023/11/24 16:49:52 [deta-test-project] 
+2023/11/24 16:49:52 
+2023/11/24 16:49:57 [deta-test-project] Packages are hard linked from the content-addressable store to the virtual store.
+2023/11/24 16:49:57 [deta-test-project]   Content-addressable store is at: /root/.local/share/pnpm/store/v3
+2023/11/24 16:49:57 [deta-test-project]   Virtual store is at:             node_modules/.pnpm
+2023/11/24 16:49:57 [deta-test-project] Lockfile is up to date, resolution step is skipped
+2023/11/24 16:49:57 [deta-test-project] Packages: +602
+2023/11/24 16:49:57 [deta-test-project] ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2023/11/24 16:49:57 
+2023/11/24 16:49:58 [deta-test-project] Progress: resolved 0, reused 0, downloaded 1, added 0
+2023/11/24 16:49:58 
+2023/11/24 16:49:59 [deta-test-project] Progress: resolved 0, reused 0, downloaded 11, added 0
+2023/11/24 16:49:59 
+2023/11/24 16:50:00 [deta-test-project] Progress: resolved 0, reused 0, downloaded 23, added 8
+2023/11/24 16:50:00 
+2023/11/24 16:50:02 [deta-test-project] Progress: resolved 0, reused 0, downloaded 24, added 8
+2023/11/24 16:50:02 
+2023/11/24 16:50:03 [deta-test-project] Progress: resolved 0, reused 0, downloaded 26, added 9
+2023/11/24 16:50:03 
+2023/11/24 16:50:04 [deta-test-project] Progress: resolved 0, reused 0, downloaded 50, added 50
+2023/11/24 16:50:04 
+2023/11/24 16:50:05 [deta-test-project] Progress: resolved 0, reused 0, downloaded 73, added 70
+2023/11/24 16:50:05 
+2023/11/24 16:50:06 [deta-test-project] Progress: resolved 0, reused 0, downloaded 101, added 92
+2023/11/24 16:50:06 
+2023/11/24 16:50:07 [deta-test-project] Progress: resolved 0, reused 0, downloaded 102, added 92
+2023/11/24 16:50:07 
+2023/11/24 16:50:08 [deta-test-project] Progress: resolved 0, reused 0, downloaded 116, added 100
+2023/11/24 16:50:08 
+2023/11/24 16:50:09 [deta-test-project] Progress: resolved 0, reused 0, downloaded 133, added 116
+2023/11/24 16:50:09 
+2023/11/24 16:50:10 [deta-test-project] Progress: resolved 0, reused 0, downloaded 181, added 173
+2023/11/24 16:50:10 
+2023/11/24 16:50:11 [deta-test-project] Progress: resolved 0, reused 0, downloaded 230, added 233
+2023/11/24 16:50:11 
+2023/11/24 16:50:12 [deta-test-project] Progress: resolved 0, reused 0, downloaded 312, added 308
+2023/11/24 16:50:12 
+2023/11/24 16:50:13 [deta-test-project] Progress: resolved 0, reused 0, downloaded 400, added 403
+2023/11/24 16:50:13 
+2023/11/24 16:50:14 [deta-test-project] Progress: resolved 0, reused 0, downloaded 531, added 527
+2023/11/24 16:50:14 
+2023/11/24 16:50:15 [deta-test-project] Progress: resolved 0, reused 0, downloaded 593, added 600
+2023/11/24 16:50:15 
+2023/11/24 16:50:16 [deta-test-project] Progress: resolved 0, reused 0, downloaded 595, added 602, done
+2023/11/24 16:50:16 [deta-test-project] 
+2023/11/24 16:50:16 
+2023/11/24 16:50:17 [deta-test-project] 
+2023/11/24 16:50:17 [deta-test-project] > deta_test_project@0.1.0 prepare /tmp/deta-test-project2007810989
+2023/11/24 16:50:17 [deta-test-project] > husky install
+2023/11/24 16:50:17 [deta-test-project] 
+2023/11/24 16:50:17 
+2023/11/24 16:50:22 [deta-test-project] fatal: not a git repository (or any of the parent directories): .git
+2023/11/24 16:50:22 [deta-test-project] husky - git command not found, skipping install
+2023/11/24 16:50:22 [deta-test-project] Done in 32.4s
+2023/11/24 16:50:22 [deta-test-project] 
+2023/11/24 16:50:22 [deta-test-project] Running command: pnpm install
+2023/11/24 16:50:22 [deta-test-project] 
+2023/11/24 16:50:22 
+2023/11/24 16:50:23 [deta-test-project] Lockfile is up to date, resolution step is skipped
+2023/11/24 16:50:23 
+2023/11/24 16:50:24 [deta-test-project] Packages: +602
+2023/11/24 16:50:24 [deta-test-project] ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2023/11/24 16:50:24 [deta-test-project] 
+2023/11/24 16:50:24 
+2023/11/24 16:50:25 [deta-test-project] 
+2023/11/24 16:50:25 [deta-test-project] > deta_test_project@0.1.0 prepare /tmp/deta-test-project2007810989
+2023/11/24 16:50:25 [deta-test-project] > husky install
+2023/11/24 16:50:25 [deta-test-project] 
+2023/11/24 16:50:25 [deta-test-project] fatal: not a git repository (or any of the parent directories): .git
+2023/11/24 16:50:25 [deta-test-project] husky - git command not found, skipping install
+2023/11/24 16:50:25 [deta-test-project] Done in 2s
+2023/11/24 16:50:25 [deta-test-project] 
+2023/11/24 16:50:25 [deta-test-project] Running command: pnpm run build
+2023/11/24 16:50:25 [deta-test-project] 
+2023/11/24 16:50:25 [deta-test-project] 
+2023/11/24 16:50:25 [deta-test-project] > deta_test_project@0.1.0 build /tmp/deta-test-project2007810989
+2023/11/24 16:50:25 [deta-test-project] > next build
+2023/11/24 16:50:25 [deta-test-project] 
+2023/11/24 16:50:25 
+2023/11/24 16:50:26 [deta-test-project] Attention: Next.js now collects completely anonymous telemetry regarding usage.
+2023/11/24 16:50:26 [deta-test-project] This information is used to shape Next.js' roadmap and prioritize features.
+2023/11/24 16:50:26 [deta-test-project] You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+2023/11/24 16:50:26 [deta-test-project] https://nextjs.org/telemetry
+2023/11/24 16:50:26 [deta-test-project] 
+2023/11/24 16:50:26 [deta-test-project]    Creating an optimized production build ...
+2023/11/24 16:50:26 
+2023/11/24 16:50:51 [deta-test-project]  ✓ Compiled successfully
+2023/11/24 16:50:51 [deta-test-project]    Linting and checking validity of types ...
+2023/11/24 16:50:51 
+❗ Error: stream error: stream ID 11; INTERNAL_ERROR; received from peer

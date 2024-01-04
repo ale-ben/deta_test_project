@@ -1,19 +1,18 @@
 {
-  "name": "deta_test_project",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-	"preinstall": "npx only-allow pnpm",
-	"prepare": "husky install",
-	"dev": "next dev",
-	"build": "next build",
-	"start": "next start",
-	"lint": "next lint",
-	"style": "prettier --write 'src/**/*.{ts,tsx}'",
-	"space dev": "space dev",
-	"space push": "space push --skip-logs"
-},
-  "dependencies": {
+	"name": "deta_test_project",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"preinstall": "npx only-allow pnpm",
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"style": "prettier --write 'src/**/*.{ts,tsx}'",
+		"space_dev": "space dev",
+		"space_push": "space push --skip-logs"
+	},
+	"dependencies": {
 		"@nextui-org/react": "^2.2.9",
 		"@types/node": "20.9.2",
 		"@types/react": "18.2.22",
@@ -33,7 +32,6 @@
 		"eslint-config-next": "14.0.3",
 		"eslint-config-prettier": "^9.0.0",
 		"eslint-plugin-prettier": "^5.0.1",
-		"husky": "^8.0.3",
 		"lint-staged": "^15.0.2",
 		"postcss": "^8.4.31",
 		"prettier": "^3.1.0",
