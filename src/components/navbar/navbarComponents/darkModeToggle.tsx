@@ -1,10 +1,9 @@
-/*
 'use client';
 
-import { MdLightMode, MdDarkMode } from 'react-icons/md';
 import { useTheme } from 'next-themes';
-import { Button } from '@nextui-org/button';
 import { useState, useEffect } from 'react';
+import { Button } from '@/components/ui/button';
+import { LuMoon, LuSun } from "react-icons/lu";
 
 const DarkModeToggle = () => {
 	const [mounted, setMounted] = useState(false);
@@ -18,25 +17,25 @@ const DarkModeToggle = () => {
 
 	if (!mounted) {
 		return (
-			<Button isIconOnly>
-				<MdDarkMode className="text-xl" />
+			<Button variant="outline" size="icon">
+				<LuMoon className="text-xl" />
 			</Button>
 		);
 	}
 
 	return (
 		<Button
-			isIconOnly
+			variant="outline"
+			size="icon"
 			onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
 		>
 			{theme === 'light' ? (
-				<MdDarkMode className="text-xl" />
+				<LuMoon className="text-xl" />
 			) : (
-				<MdLightMode className="text-xl" />
+				<LuSun className="text-xl" />
 			)}
 		</Button>
 	);
 };
 
 export default DarkModeToggle;
-*/

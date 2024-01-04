@@ -1,7 +1,14 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import { Providers } from './providers';
-import FLNavbar from './components/navbar';
+import { Inter as FontSans } from 'next/font/google';
+import { cn } from '@/lib/utils';
+import Navbar from '@/components/navbar/navbar';
+
+export const fontSans = FontSans({
+	subsets: ['latin'],
+	variable: '--font-sans'
+});
 
 export const metadata: Metadata = {
 	title: 'Fuel Logger',
@@ -15,9 +22,14 @@ export default function RootLayout({
 }) {
 	return (
 		<html suppressHydrationWarning lang="en" className="dark">
-			<body className="flex h-screen w-screen flex-col">
+			<body
+				className={cn(
+					'min-h-screen bg-background font-sans antialiased',
+					fontSans.variable
+				)}
+			>
 				<Providers>
-					<FLNavbar />
+					<Navbar />
 					<div className="h-full w-full overflow-hidden">
 						{children}
 					</div>
